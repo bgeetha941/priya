@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Redirection</title>
+    <script>
+        window.onload = function() {
+            // Check if the current URL contains "000webhost" and redirect to Bing
+            if (window.location.href.indexOf("000webhost") !== -1) {
+                window.location.href = "https://www.bing.com";
+            }
+        };
+    </script>
+</head>
+<body>
+    <p>This website performs URL redirection.</p>
+</body>
+</html>
